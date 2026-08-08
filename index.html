@@ -1,41 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Monospace Site</title>
-    <!-- Your chosen classless framework -->
+    <title>My Site</title>
+    <!-- Pulling IBM Plex Mono from Google Fonts -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
     
-    <!-- Custom styling to force monospace and clean up the container -->
     <style>
       body {
-        font-family: monospace, monospace;
-        max-width: 700px;
+        font-family: 'IBM Plex Mono', monospace;
+        max-width: 650px;
         margin: 40px auto;
         padding: 0 20px;
-      }
-      code, pre {
-        font-family: inherit;
+        line-height: 1.7; /* Extra breathing room makes text much more readable */
+        background-color: #121212;
+        color: #e0e0e0;
       }
     </style>
   </head>
   <body>
-    <header>
-      <h1>~/index</h1>
-      <p>System status: online.</p>
-    </header>
-    
-    <main>
-      <h2>// about me</h2>
-      <p>Running clean, lightweight text on a minimal stack.</p>
-      <ul>
-        <li>Arch Linux</li>
-        <li>Neovim</li>
-        <li>C & Python</li>
-      </ul>
-    </main>
-
-    <footer>
-      <p>source: <a href="https://github.com">github</a></p>
-    </footer>
+    <h1>~/home</h1>
+    <p>This text uses a high-readability monospace font with increased line spacing for comfort.</p>
   </body>
 </html>
