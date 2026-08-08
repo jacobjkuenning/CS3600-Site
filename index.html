@@ -1,27 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Clean Site</title>
-    <!-- This single line transforms the look instantly -->
-    <link rel="stylesheet" href="https://unpkg.com/mvp.css">
+    <title>My Monospace Site</title>
+    <!-- Your chosen classless framework -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
+    
+    <!-- Custom styling to force monospace and clean up the container -->
+    <style>
+      body {
+        font-family: monospace, monospace;
+        max-width: 700px;
+        margin: 40px auto;
+        padding: 0 20px;
+      }
+      code, pre {
+        font-family: inherit;
+      }
+    </style>
   </head>
   <body>
     <header>
-      <h1>My Website</h1>
-      <p>Built with plain HTML and zero bloat.</p>
+      <h1>~/index</h1>
+      <p>System status: online.</p>
     </header>
     
     <main>
-      <h2>About Me</h2>
-      <p>I'm setting up a personal site. Here is what I like:</p>
+      <h2>// about me</h2>
+      <p>Running clean, lightweight text on a minimal stack.</p>
       <ul>
-        <li>Minimalist setups</li>
-        <li>Writing code</li>
+        <li>Arch Linux</li>
+        <li>Neovim</li>
+        <li>C & Python</li>
       </ul>
     </main>
 
     <footer>
-      <p>Find my code on <a href="https://github.com">GitHub</a>.</p>
+      <p>source: <a href="https://github.com">github</a></p>
     </footer>
   </body>
 </html>
