@@ -24,8 +24,8 @@ h1::after, h2::after {
   left: 50%;
   bottom: 0;
   transform: translateX(-50%);
-  width: 50px;
+  width: 100px;
   height: 3px;
-  background-color: #333333; /* Dark neutral bar; change color as needed */
+  background-color: #000000; /* Dark neutral bar; change color as needed */
   border-radius: 2px;
 }
