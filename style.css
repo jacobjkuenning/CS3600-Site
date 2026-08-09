@@ -22,8 +22,8 @@ h1, h2, h3 {
 nav {
   text-align: center;
   position: relative;
-  margin-bottom: 5px;
-  margin-top: 5px;
+  margin: 0;      /* Resets all margins */
+  padding: 0;     /* Resets all padding */
 }
 
 h1::after, h2::after {
