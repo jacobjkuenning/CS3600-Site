@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
   max-width: 600px;
   margin: 80px auto;
   padding: 0 20px;
