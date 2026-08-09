@@ -22,7 +22,8 @@ h1, h2, h3 {
 nav {
   text-align: center;
   position: relative;
-  margin-bottom: 3px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 h1::after, h2::after {
