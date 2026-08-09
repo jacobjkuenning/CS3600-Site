@@ -19,7 +19,7 @@ h1, h2, h3, nav {
   margin-bottom: 24px;
 }
 
-h1::after, h2::after, h3::after {
+h1::after, h2::after {
   content: "";
   position: absolute;
   left: 50%;
